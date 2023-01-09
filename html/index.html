@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Discord / Runescape mashup</title>
+		<style>
+			body, form{
+				margin:20px auto;
+				max-width:800px;
+				overflow-x:hidden;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#description{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+			input#location{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="get_stats" method="get">
+			<fieldset>
+				<legend>Discord / Runescape mashup: Sends message to discord servers regarding the runescape info.</legend>
+				<label for="runescape_search">Runescape Search:</label>
+				<input id="runescape_search" name="runescape_search" type="text" />
+				
+				<label for="information">Information:</label>
+				<select id="info_type" name="info_type">
+					<option value="high_score">High Scores</option>
+					<option value="grand_exchange">Grand Exchange</option>
+				</select>
+				<input type="submit" value="Send Information" />
+			</fieldset>
+		</form>
+	</body>
+</html>
