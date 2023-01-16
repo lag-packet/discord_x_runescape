@@ -1,7 +1,7 @@
 # discord_x_runescape
 Nodejs project using only the native Nodejs with http and https module to make api calls to discords api and runescapes api. Demonstrating server side code at the lowest level on Nodejs making http requests with header and streams.
 
-This project was done as a course project for Internet and Web technologies. What I learned here:
+# This project was done as a course project for Internet and Web technologies. What I learned here:
 
 1) Networking OSI Model.
 2) Client Server Architecture.
