@@ -6,9 +6,9 @@ Nodejs project using only the native Nodejs with http and https module to make a
 1) Networking OSI Model.
 2) Client Server Architecture.
 3) NodeJS & Javascript.
-  * Event queue, and v8 engine.
-  * Callbacks and asynchronous code using only call backs.
-  * Observer pattern and asynchronous code.
-  * Sockets & Streams
-  * Implementing TCP Server
-  * HTTP protocol and implementing a HTTP Server
+   * Event queue, and v8 engine.
+   * Callbacks and asynchronous code using only call backs.
+   * Observer pattern and asynchronous code.
+   * Sockets & Streams
+   * Implementing TCP Server
+   * HTTP protocol and implementing a HTTP Server
