@@ -1,5 +1,5 @@
 # discord_x_runescape
-Nodejs project using only the native Nodejs with http and https module to make api calls to discords api and runescapes api. Demonstrating server side code at the lowest level on Nodejs making http requests with header and streams. Also implemented OUATH 3.0 flow into the project to demonstrate authentication in server for discord api calls with proper scopes. The specific authentication used as 3LO or 3-legged Auth.
+Nodejs project using only the native Nodejs with http and https module to make api calls to discords api and runescapes api. Demonstrating server side code at the lowest level on Nodejs making http requests with header and streams. Also implemented 3-legged ouauth flow into the project to demonstrate authentication in server for discord api calls with proper scopes. The specific authentication used was 3LO or 3-legged Auth.
 
 # This project was done as a course project for Internet and Web technologies. What I learned here:
 
